@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/dimen_14dp"
+    android:paddingStart="@dimen/dimen_14dp"
+    android:paddingTop="@dimen/dimen_10dp"
+    android:paddingBottom="@dimen/dimen_10dp">
+
+    <RelativeLayout
+        android:id="@+id/rlBirthdayImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dimen_6dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBirthdayPic"
+            android:layout_width="@dimen/dimen_52dp"
+            android:layout_height="@dimen/dimen_52dp"
+            android:layout_marginTop="@dimen/dimen_2dp"
+            app:srcCompat="@drawable/ic_profile_dummy" />
+
+        <FrameLayout
+            android:id="@+id/flSubIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:background="@drawable/white_circle_bg"
+            android:padding="@dimen/dimen_2dp"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivSubIcon"
+                android:layout_width="@dimen/dimen_20dp"
+                android:layout_height="@dimen/dimen_20dp"
+                android:background="@drawable/ic_circle_bg"
+                android:padding="@dimen/dimen_4dp"
+                app:srcCompat="@drawable/ic_twitter" />
+        </FrameLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivBlurPic"
+            android:layout_width="@dimen/dimen_52dp"
+            android:layout_height="@dimen/dimen_52dp"
+            android:layout_marginTop="@dimen/dimen_2dp"
+            android:background="@drawable/blur_image"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/rlBirthdayImage">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBirthdayName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aby Thomas"
+            android:textColor="@color/textColorBlue"
+            android:textSize="@dimen/dimen_14sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvBirthdayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feb 25 2021,Monday"
+            android:textColor="@color/colorDiv"
+            android:textSize="@dimen/dimen_11sp"
+            android:textStyle="normal"
+            android:layout_below="@+id/tvBirthdayName"/>
+    </RelativeLayout>
+</RelativeLayout>

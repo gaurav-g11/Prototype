@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="trinity_mar_thoma_chruch_houston">Trinity Mar Thoma Chruch, Houston</string>
+    <string name="home">Home</string>
+    <string name="family">Family</string>
+    <string name="activity">Activity</string>
+    <string name="contribution">Contribution</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="abraham_thomas">Abraham Thomas</string>
+    <string name="address">Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="my_households">My Households</string>
+    <string name="male">Male</string>
+    <string name="peral_land_east">Peral Land East</string>
+    <string name="birthdays">Birthdays</string>
+    <string name="wedding_anniversary">Wedding Anniversary</string>
+</resources>
